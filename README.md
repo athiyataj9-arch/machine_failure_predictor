@@ -50,4 +50,4 @@ The model was evaluated using a confusion matrix and achieved high accuracy in i
 - Implement Deep Learning (LSTMs) for time-series failure prediction
 
 ## 📜 License
-    This project is for educational and portfolio purposes.
+This project is for educational and portfolio purposes.
