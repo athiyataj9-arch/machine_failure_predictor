@@ -25,11 +25,11 @@ A machine learning application that predicts potential equipment failures using 
 2. **Create and activate a virtual environment:**
 - Create environment:
 
-python -m venv venv
+    python -m venv venv
 
 - Activate on Windows:
 
-.\venv\Scripts\activate
+    .\venv\Scripts\activate
 
 3. **Install dependencies:**
 pip install -r requirements.txt
