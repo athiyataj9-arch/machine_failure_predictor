@@ -33,15 +33,13 @@ A machine learning application that predicts potential equipment failures using 
 
 3. **Install dependencies:**
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 4. **Launch the app:**
 
-streamlit run app.py
+    streamlit run app.py
 
 ## 📊 Results
 The model was evaluated using a confusion matrix and achieved high accuracy in identifying specific failure modes, particularly:
-
-Heat Dissipation Failures
-
-Overstrain Failures
+- Heat Dissipation Failures
+- Overstrain Failures
