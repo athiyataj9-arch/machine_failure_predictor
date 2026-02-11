@@ -32,9 +32,11 @@ A machine learning application that predicts potential equipment failures using 
     .\venv\Scripts\activate
 
 3. **Install dependencies:**
+
 pip install -r requirements.txt
 
 4. **Launch the app:**
+
 streamlit run app.py
 
 ## 📊 Results
