@@ -1,32 +1,60 @@
 # 🛠️ Machine Failure Predictor
-**A Predictive Maintenance system using XGBoost to forecast equipment failure.**
 
-## 📊 Project Overview
-This project uses simulated sensor data (Temperature, Vibration, Pressure) to predict whether a machine will fail within the next 7 days. By predicting failures early, factories can save thousands in repair costs and downtime.
+A machine learning application that predicts potential equipment failures using sensor data. This project includes a trained model, a data processing pipeline, and a web-based dashboard built with Streamlit.
 
-## 🚀 Live Demo
-[Link to your Streamlit App if deployed]
 
-## 🧠 Model Results
-We used an **XGBoost Classifier** to achieve high precision in failure detection.
 
-### Feature Importance
-*Which sensors matter most?*
-![Feature Importance](feature_importance.png)
+## 🚀 Features
+* **Predictive Modeling:** Uses XGBoost to identify failure patterns with high precision.
+* **Interactive Dashboard:** A Streamlit web app for real-time manual data input and prediction.
+* **Data Visualization:** Built-in charts for feature importance and model performance.
 
-### Confusion Matrix
-*How accurate is the model?*
-![Confusion Matrix](confusion_matrix.png)
+## 📁 Project Structure
+* `app.py`: The main Streamlit web application.
+* `model_building.ipynb`: Data exploration and training logic.
+* `machine_model.json`: The serialized trained model.
+* `requirements.txt`: List of dependencies needed to run the project.
 
-## 📁 Repository Structure
-* `app.py`: Streamlit web interface.
-* `model_building.ipynb`: Exploratory Data Analysis (EDA) and model tuning.
-* `model_building.py`: The production-ready training pipeline.
-* `factory_sensor_simulator_2040.csv`: Simulated dataset.
-* `*.pkl` & `*.json`: Saved model assets for the web app.
+## 🛠️ Installation & Setup
 
-## 🛠️ How to Run Locally
-1. Clone the repo: `git clone <your-repo-url>`
-2. Create a virtual environment: `python -m venv venv`
-3. Install dependencies: `pip install -r requirements.txt`
-4. Run the app: `streamlit run app.py`
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/athiyataj9-arch/machine_failure_predictor.git](https://github.com/athiyataj9-arch/machine_failure_predictor.git)
+   cd machine_failure_predictor
+
+2. **Create and activate a virtual environment:**
+# Create environment
+python -m venv venv
+
+# Activate on Windows:
+.\venv\Scripts\activate
+
+3. **Install dependencies:**
+pip install -r requirements.txt
+
+4. **Launch the app:**
+streamlit run app.py
+
+## 📊 Results
+The model was evaluated using a confusion matrix and achieved high accuracy in identifying specific failure modes, particularly:
+
+Heat Dissipation Failures
+
+Overstrain Failures
+
+**Developed as a Machine Learning Portfolio Project.**
+
+---
+
+### 🚀 How to Save & Push
+Since you have already handled the big files, updating the README is super fast:
+
+1.  Open your `README.md` file in VS Code.
+2.  **Delete everything** currently in it and paste the block above.
+3.  Save the file.
+4.  In your terminal, run:
+    ```powershell
+    git add README.md
+    git commit -m "Finalized professional README with setup instructions"
+    git push origin main
+    ```
