@@ -41,20 +41,3 @@ The model was evaluated using a confusion matrix and achieved high accuracy in i
 Heat Dissipation Failures
 
 Overstrain Failures
-
-**Developed as a Machine Learning Portfolio Project.**
-
----
-
-### 🚀 How to Save & Push
-Since you have already handled the big files, updating the README is super fast:
-
-1.  Open your `README.md` file in VS Code.
-2.  **Delete everything** currently in it and paste the block above.
-3.  Save the file.
-4.  In your terminal, run:
-    ```powershell
-    git add README.md
-    git commit -m "Finalized professional README with setup instructions"
-    git push origin main
-    ```
