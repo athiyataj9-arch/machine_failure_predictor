@@ -43,3 +43,11 @@ A machine learning application that predicts potential equipment failures using 
 The model was evaluated using a confusion matrix and achieved high accuracy in identifying specific failure modes, particularly:
 - Heat Dissipation Failures
 - Overstrain Failures
+
+## 🔮 Future Enhancements
+- Deploy the model to a cloud platform (Heroku or Streamlit Cloud)
+- Integrate real-time IoT sensor data streaming
+- Implement Deep Learning (LSTMs) for time-series failure prediction
+
+## 📜 License
+    This project is for educational and portfolio purposes.
