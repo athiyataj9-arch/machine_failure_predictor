@@ -23,10 +23,12 @@ A machine learning application that predicts potential equipment failures using 
    cd machine_failure_predictor
 
 2. **Create and activate a virtual environment:**
-Create environment:
+- Create environment:
+
 python -m venv venv
 
-Activate on Windows:
+- Activate on Windows:
+
 .\venv\Scripts\activate
 
 3. **Install dependencies:**
